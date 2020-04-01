@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       {/* We can use the environment to change the behaviour of the app */}
-      {environment == "production" ? (
+      {environment === "production" ? (
         <div>
           <p>Doggo Viewer</p>
           <button onClick={getDoggos}>Click to see a doggo</button>
@@ -37,7 +37,7 @@ const App = () => {
           <button onClick={getKitties}>Click to see a kitty</button>
         </div>
       )}
-      <img src={imgSrc} />
+      <img src={imgSrc} alt="" />
     </div>
   );
 };
