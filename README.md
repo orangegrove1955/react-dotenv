@@ -6,4 +6,4 @@ There is an accompanying [Medium article]() explaining the process in further de
 
 # Demo
 
-Check out the [Netlify Site](https://orangegrove1955-react-recipe.netlify.com)
+Check out the [Netlify Site](https://react-dotenv.netlify.com/)
